@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Remi</string>
+    <string name="input">아이디와 비밀번호를 입력해주세요</string>
+    <string name="wr_pw">비밀번호가 틀렸습니다.</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="tab_text_1">추천메뉴</string>
+    <string name="tab_text_2">메인</string>
+    <string name="tab_text_3">파스타</string>
+    <string name="tab_text_4">샐러드</string>
+    <string name="tab_text_5">음료</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

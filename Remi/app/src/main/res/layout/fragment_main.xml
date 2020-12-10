@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="950dp"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp">
+
+                    <LinearLayout
+                        android:layout_width="300dp"
+                        android:layout_height="250dp"
+                        android:layout_margin="5dp"
+                        android:orientation="vertical"
+                        android:background="@drawable/border">
+
+                        <TextView
+                            android:id="@+id/textStk1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="꽃 등심 스테이크"
+                            android:textSize="25dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="200g 55,000원"
+                            android:textSize="25dp"
+                            android:textStyle="bold"
+                            android:gravity="center"/>
+
+                        <Button
+                            android:id="@+id/btnstk1"
+                            android:layout_margin="5dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/steak" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="300dp"
+                        android:layout_height="250dp"
+                        android:layout_margin="5dp"
+                        android:orientation="vertical"
+                        android:background="@drawable/border">
+
+                        <TextView
+                            android:id="@+id/textStk2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="블랙 앵거스 안심스테이크"
+                            android:textSize="25dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="170g 43,000원"
+                            android:textSize="25dp"
+                            android:textStyle="bold"
+                            android:gravity="center"/>
+
+                        <Button
+                            android:id="@+id/btnstk2"
+                            android:layout_margin="5dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/steak2" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:background="@drawable/border"
+                        android:layout_width="300dp"
+                        android:layout_height="250dp"
+                        android:layout_margin="5dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textStk3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="포터하우스 티본 스테이크"
+                            android:textSize="25dp"
+                            android:gravity="center"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView7"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="530g 107,000원"
+                            android:textSize="25dp"
+                            android:textStyle="bold"
+                            android:gravity="center"/>
+
+                        <Button
+                            android:layout_margin="5dp"
+                            android:id="@+id/btnstk3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/steak3" />
+
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp">
+
+                    <LinearLayout
+                        android:background="@drawable/border"
+                        android:layout_width="300dp"
+                        android:layout_height="250dp"
+                        android:layout_margin="5dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textStk4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="샤토 브리앙 스테이크"
+                            android:textSize="25dp"
+                            android:gravity="center"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView9"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="340g 55,000원"
+                            android:textSize="25dp"
+                            android:textStyle="bold"
+                            android:gravity="center"/>
+
+                        <Button
+                            android:layout_margin="5dp"
+                            android:id="@+id/btnstk4"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/steak4" />
+
+                    </LinearLayout>
+
+                </TableRow>
+
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

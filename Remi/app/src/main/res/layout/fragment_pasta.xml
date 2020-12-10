@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="950dp"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp">
+
+                    <LinearLayout
+                        android:background="@drawable/border"
+                        android:layout_width="300dp"
+                        android:layout_height="250dp"
+                        android:layout_margin="5dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textPst1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="리가 토니만조 파스타"
+                            android:textSize="25dp"
+                            android:gravity="center"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="19,900원"
+                            android:textSize="25dp"
+                            android:textStyle="bold"
+                            android:gravity="center"/>
+
+                        <Button
+                            android:layout_margin="5dp"
+                            android:id="@+id/btnPst1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/pasta1" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:background="@drawable/border"
+                        android:layout_width="300dp"
+                        android:layout_height="250dp"
+                        android:layout_margin="5dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:gravity="center"
+                            android:id="@+id/textPst2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="알리오 올리오 파스타"
+                            android:textSize="25dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="17,900원"
+                            android:textSize="25dp"
+                            android:textStyle="bold"
+                            android:gravity="center"/>
+
+                        <Button
+                            android:layout_margin="5dp"
+                            android:id="@+id/btnPst2"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/pasta2" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:background="@drawable/border"
+                        android:layout_width="300dp"
+                        android:layout_height="250dp"
+                        android:layout_margin="5dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:gravity="center"
+                            android:id="@+id/textPst3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="마레 비앙코 오일 파스타"
+                            android:textSize="25dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="17,900원"
+                            android:textSize="25dp"
+                            android:textStyle="bold"
+                            android:gravity="center"/>
+                        <Button
+                            android:layout_margin="5dp"
+                            android:id="@+id/btnPst3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/pasta3" />
+
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp">
+
+                    <LinearLayout
+                        android:background="@drawable/border"
+                        android:layout_width="300dp"
+                        android:layout_height="250dp"
+                        android:layout_margin="5dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:gravity="center"
+                            android:id="@+id/textPst4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="아마트리치아나 파스타"
+                            android:textSize="25dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="17,900원"
+                            android:textSize="25dp"
+                            android:textStyle="bold"
+                            android:gravity="center"/>
+
+                        <Button
+                            android:layout_margin="5dp"
+                            android:id="@+id/btnPst4"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/pasta4" />
+
+                    </LinearLayout>
+                </TableRow>
+
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

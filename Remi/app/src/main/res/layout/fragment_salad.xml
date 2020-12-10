@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="950dp"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp">
+
+                    <LinearLayout
+                        android:background="@drawable/border"
+                        android:layout_width="300dp"
+                        android:layout_height="250dp"
+                        android:layout_margin="5dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textSld1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="시져 샐러드"
+                            android:textSize="25dp"
+                            android:gravity="center"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="9,900원"
+                            android:textSize="25dp"
+                            android:textStyle="bold"
+                            android:gravity="center"/>
+
+                        <Button
+                            android:layout_margin="5dp"
+                            android:id="@+id/btnSld1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/salad1" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:background="@drawable/border"
+                        android:layout_width="300dp"
+                        android:layout_height="250dp"
+                        android:layout_margin="5dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textSld2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="과카몰리 새우 샐러드"
+                            android:textSize="25dp"
+                            android:gravity="center"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="10,900원"
+                            android:textSize="25dp"
+                            android:textStyle="bold"
+                            android:gravity="center"/>
+
+                        <Button
+                            android:layout_margin="5dp"
+                            android:id="@+id/btnSld2"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/salad2" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:background="@drawable/border"
+                        android:layout_width="300dp"
+                        android:layout_height="250dp"
+                        android:layout_margin="5dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textSld3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="리코타 샐러드"
+                            android:textSize="25dp"
+                            android:gravity="center"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="9,900원"
+                            android:textSize="25dp"
+                            android:textStyle="bold"
+                            android:gravity="center"/>
+
+                        <Button
+                            android:layout_margin="5dp"
+                            android:id="@+id/btnSld3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/salad3" />
+
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp">
+
+                    <LinearLayout
+                        android:background="@drawable/border"
+                        android:layout_width="300dp"
+                        android:layout_height="250dp"
+                        android:layout_margin="5dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textSld4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="치킨 샐러드"
+                            android:textSize="25dp"
+                            android:gravity="center"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="9,900원"
+                            android:textSize="25dp"
+                            android:textStyle="bold"
+                            android:gravity="center"/>
+
+                        <Button
+                            android:layout_margin="5dp"
+                            android:id="@+id/btnSld4"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/salad4" />
+
+                    </LinearLayout>
+                </TableRow>
+
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
